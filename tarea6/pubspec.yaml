@@ -1,0 +1,36 @@
+name: tarea6
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  cupertino_icons: ^1.0.8
+  http: ^0.13.3
+  url_launcher: ^6.0.20  # Agrega esta línea
+  flutter_dotenv: ^5.2.1 # Agregar esta líneas
+  webview_flutter: ^2.0.14
+  flutter_inappwebview: ^5.7.2 # O la última versión disponible
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/joven.jpg
+    - assets/adulto.jpg
+    - assets/viejo.jpg
+    - assets/m1.png
+    - assets/m2.jpg
+    - assets/mifoto.jpg
